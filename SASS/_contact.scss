@@ -1,0 +1,32 @@
+#contact {
+  &__a {
+    .form-fields {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+
+      button.btn-primary {
+        width: 100%;
+      }
+
+      .message {
+        height: 200px;
+      }
+
+      .input {
+        flex: 1 1 auto;
+        padding: 5px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  &__b {
+    .my-contact {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px;
+    }
+  }
+}
