@@ -1,0 +1,41 @@
+//tablet ve altı
+@media (max-width: 768px) {
+  #header {
+    &__home {
+      height: 50vh;
+
+      h1 {
+        font-size: 35px;
+        margin-top: 20px;
+      }
+    }
+
+  }
+  #home {
+    &__b {
+      .profile {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 100%;
+
+        .flex-item {
+          margin-bottom: 50px;
+          flex: 50%;
+        }
+      }
+    }
+  }
+
+}
+
+//mobile
+@media (max-width: 576px) {
+  #home {
+    &__b {
+      .profile {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
